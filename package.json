@@ -2,8 +2,9 @@
   "name": "final-backend",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "description": "Backend for final assignment",
+  "engines": {
+    "node": "12.x"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -12,5 +13,29 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasSutanto239/final-backend.git"
+  },
+
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
+
+  "author": "Nicholas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasSutanto239/final-backend/issues"
+  },
+  "homepage": "https://github.com/NicholasSutanto239/final-backend#readme"
 }
